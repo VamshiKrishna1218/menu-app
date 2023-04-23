@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.menu{
+  background-color: black;
+}
+
+
+
+.search-btn{
+  max-height: 200px;
+  width: auto;
+  margin-top: 0px;
+  display: flex;
+  background-color:black;
+  padding-left: 20px;
+  flex-direction: row;
+  padding-right: 50px;
+
+} 
+
+.input{
+  padding-right: 30px;
+  margin-top: 10px;
+
+}
+.btn{
+  margin-bottom: 1px;
+}
+
+.items{
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  
+}
+.biryani-one{
+  background-color:black;
+  margin-top: 30px;
+  margin-left: 20px;
+  background-color: black;
+  border: 3px solid;
+  
+  
+  
+  
+  }
+   
+    .grid-container{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-template-rows: repeat(2, 1fr);
+     gap: 10px;
+     
+    }
+    .grid-item{
+      max-width:150px;
+      max-height: 188px;
+        grid-row-end: span 2;
+        border: 1px solid #ccc;
+        margin-left: 20px;
+        margin-top: 10px;
+        padding-left: 20px;
+        border-radius: 15px;
+        box-shadow:rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        }
+  
+  .food-item{
+    display: flex;
+    border-radius: 3rem;
+    width: 250px;
+    margin-top: 35px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    height: 200 px;
+    left: 16px;
+    top: 449px;
+    
+    box-shadow: 6px 6px 4px rgba(255, 131, 131, 0.82);
+    border-radius : 34px;}
+  img{
+    max-width: 100px;
+    max-height: 100px;
+  }  
